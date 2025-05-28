@@ -11,8 +11,32 @@
 <body>
 
   <div class="mainContainer">
-    <div class="container">
-      
+    <div class="container border rounded m-5 p-5">
+      <div class="row">
+
+        <h2 class="text-center my-5">My Play list</h2>
+        <hr>
+
+        <!--Search & Search Result-->
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <form id="searchForm" class="d-flex">
+          <input type="text" id="searchInput" class="form-control me-2" placeholder="Search YouTube videos..." required>
+          <button type="submit" class="btn btn-danger">Search</button>
+        </form>
+        </div>
+
+        <!--Player & Favourite Play list-->
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="currentPlaying">
+            <H3>Current Play</H3>
+          </div>
+          <div class="myPlaylist">
+            <H3>Play List</H3>
+            <hr>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 
